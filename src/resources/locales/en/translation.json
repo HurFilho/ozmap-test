@@ -1,0 +1,14 @@
+{
+  "errors": {
+    "address-or-coordinates": "User must provide either address or coordinates, not both or none.",
+    "not-found-address": "Address not found",
+    "not-found-region": "Region not found",
+    "not-found-user": "User not found",
+    "not-region-owner": "User is not the owner of this region",
+    "not-valid-coordinates": "The provided region coordinates are not valid",
+    "server-error": "An internal server error occured"
+  },
+  "success": {
+    "deleted": "User deleted successfully"
+  }
+}
