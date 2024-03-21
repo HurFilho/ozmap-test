@@ -2,10 +2,12 @@
   "name": "oztest",
   "version": "0.0.1",
   "description": "DevOZ - Tech test",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "dev": "nodemon index.ts",
-    "test": "mocha --require ts-node/register ./src/**/*.spec.ts --exit"
+    "test": "mocha --timeout 20000 --require ts-node/register ./src/**/*.spec.ts --exit",
+    "start-db": "docker-compose up -d",
+    "reset-db": "node ./src/scripts/resetMongoDB.script.ts"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +15,7 @@
     "@faker-js/faker": "^8.1.0",
     "@typegoose/typegoose": "^11.5.0",
     "@types/i18next-node-fs-backend": "^2.1.5",
+    "@types/node-geocoder": "^4.2.6",
     "chai": "^4.3.10",
     "dotenv": "^16.4.5",
     "eslint": "^8.57.0",
