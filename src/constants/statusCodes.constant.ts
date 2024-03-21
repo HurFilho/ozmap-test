@@ -1,0 +1,7 @@
+export enum StatusCodes {
+  CREATED = 201,
+  ERROR_BAD_REQUEST = 400,
+  ERROR_INTERNAL_SERVER = 500,
+  ERROR_NOT_FOUND = 404,
+  SUCCESS = 200,
+}

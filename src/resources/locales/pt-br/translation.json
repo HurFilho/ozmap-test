@@ -1,0 +1,14 @@
+{
+  "errors": {
+    "address-or-coordinates": "O usuário deve fornecer ou um endereço ou coordenadas, não ambos ou nenhum.",
+    "not-found-address": "Endereço não encontrado",
+    "not-found-region": "Região não encontrada",
+    "not-found-user": "Usuário não encontrado",
+    "not-region-owner": "Usuário não é o proprietário desta região",
+    "not-valid-coordinates": "As coordenadas da região fornecidas não são válidas",
+    "server-error": "Ocorreu um erro interno no servidor"
+  },
+  "success": {
+    "deleted": "Usuário deletado com sucesso"
+  }
+}
